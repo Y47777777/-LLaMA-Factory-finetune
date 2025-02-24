@@ -48,28 +48,35 @@ Choose your path:
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Features](#features)
+  - [Day-N Support for Fine-Tuning Cutting-Edge Models](#day-n-support-for-fine-tuning-cutting-edge-models)
 - [Benchmark](#benchmark)
 - [Changelog](#changelog)
 - [Supported Models](#supported-models)
 - [Supported Training Approaches](#supported-training-approaches)
 - [Provided Datasets](#provided-datasets)
 - [Requirement](#requirement)
+  - [Hardware Requirement](#hardware-requirement)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
+    - [Install BitsAndBytes](#install-bitsandbytes)
+    - [Install Flash Attention-2](#install-flash-attention-2)
+    - [Install BitsAndBytes](#install-bitsandbytes-1)
   - [Data Preparation](#data-preparation)
   - [Quickstart](#quickstart)
-  - [Fine-Tuning with LLaMA Board GUI](#fine-tuning-with-llama-board-gui-powered-by-gradio)
+  - [Fine-Tuning with LLaMA Board GUI (powered by Gradio)](#fine-tuning-with-llama-board-gui-powered-by-gradio)
   - [Build Docker](#build-docker)
   - [Deploy with OpenAI-style API and vLLM](#deploy-with-openai-style-api-and-vllm)
   - [Download from ModelScope Hub](#download-from-modelscope-hub)
   - [Download from Modelers Hub](#download-from-modelers-hub)
-  - [Use W&B Logger](#use-wb-logger)
+  - [Use W\&B Logger](#use-wb-logger)
   - [Use SwanLab Logger](#use-swanlab-logger)
 - [Projects using LLaMA Factory](#projects-using-llama-factory)
 - [License](#license)
 - [Citation](#citation)
 - [Acknowledgement](#acknowledgement)
+- [Star History](#star-history)
 
 ## Features
 
