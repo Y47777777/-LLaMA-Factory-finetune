@@ -2,7 +2,7 @@
 
 ### model
 model_name_or_path: /home/visionnav/code/LLaMA-Factory/models/qwen2-7b-instruct
-adapter_name_or_path: /home/visionnav/code/LLaMA-Factory/saves/qwen2-7b/lora/sft/checkpoint-100
+adapter_name_or_path: /home/visionnav/code/LLaMA-Factory/saves/qwen2-7b/lora/sft/checkpoint-600
 template: qwen
 finetuning_type: lora
 

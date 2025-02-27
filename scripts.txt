@@ -1,0 +1,8 @@
+# train model
+CUDA_VISIBLE_DEVICES=0,1 llamafactory-cli train examples/train_lora/qwen2_lora_7b.yaml
+
+# merge model
+llamafactory-cli export examples/merge_lora/qwen2_7b_sft.yaml
+
+# test model
+llamafactory-cli chat examples/inference/qwen2_7b.yaml
