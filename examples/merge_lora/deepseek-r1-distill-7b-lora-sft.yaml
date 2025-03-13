@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /home/visionnav/code/LLaMA-Factory/models/DeepSeek-R1-Distill-Qwen-7B
+adapter_name_or_path: /home/visionnav/code/LLaMA-Factory/saves/deepseek-r1-distill-7b/lora/sft/checkpoint-600
+template: deepseek
+finetuning_type: lora
+
+### export
+export_dir: models/deepseek-r1-lora-sft
+export_size: 2
+export_device: cpu
+export_legacy_format: false
